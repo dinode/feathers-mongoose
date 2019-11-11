@@ -1,5 +1,34 @@
 # Change Log
 
+## [v8.1.0](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.1.0) (2019-10-07)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.0.3...v8.1.0)
+
+**Implemented enhancements:**
+
+- `whitelist` property should merge with mongoose defaults [\#347](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/347)
+
+**Merged pull requests:**
+
+- Update all dependencies [\#349](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/349) ([daffl](https://github.com/daffl))
+- Merge whitelist to always include $and [\#348](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/348) ([daffl](https://github.com/daffl))
+
+## [v8.0.3](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.0.3) (2019-09-29)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.0.2...v8.0.3)
+
+**Closed issues:**
+
+- An in-range update of run-rs is breaking the build 🚨 [\#341](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/341)
+- An in-range update of mongoose is breaking the build 🚨 [\#340](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/340)
+- An in-range update of mongoose is breaking the build 🚨 [\#337](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/337)
+
+**Merged pull requests:**
+
+- Update run-rs to the latest version 🚀 [\#346](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/346) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update all dependencies [\#344](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/344) ([daffl](https://github.com/daffl))
+- Greenkeeper/run rs 0.5.5 [\#343](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/343) ([daffl](https://github.com/daffl))
+- Pass entity type to AdapterService\<T\> [\#342](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/342) ([Palivonas](https://github.com/Palivonas))
+- Update semistandard to the latest version 🚀 [\#338](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/338) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v8.0.2](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.0.2) (2019-08-07)
 [Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.0.1...v8.0.2)
 

@@ -21,7 +21,7 @@ export interface MongooseServiceOptions extends ServiceOptions {
   maxTotalLimit?: number;
 }
 
-export class Service<T = any> extends AdapterService implements InternalServiceMethods<T> {
+export class Service<T = any> extends AdapterService<T> implements InternalServiceMethods<T> {
   Model: Model<any>;
   options: MongooseServiceOptions;
 
