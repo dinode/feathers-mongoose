@@ -1,5 +1,45 @@
 # Change Log
 
+## [v8.3.0](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.3.0) (2020-01-08)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/8.3.0...v8.3.0)
+
+## [8.3.0](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/8.3.0) (2020-01-08)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.2.0...8.3.0)
+
+**Fixed bugs:**
+
+- service.patch leads to 404 if query contains the patched field [\#345](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/345)
+- patch is incorrectly applying the entire query when re-fetching [\#321](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/321)
+
+**Merged pull requests:**
+
+- update '\_remove' method [\#364](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/364) ([sarkistlt](https://github.com/sarkistlt))
+
+## [v8.2.0](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.2.0) (2020-01-05)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.1.1...v8.2.0)
+
+**Merged pull requests:**
+
+- Add launch.json for mocha tests & fix typescript error. [\#365](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/365) ([marshallswain](https://github.com/marshallswain))
+- Update sinon to the latest version 🚀 [\#363](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/363) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- :bug: fix 404 on patch call [\#362](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/362) ([arfanliaqat](https://github.com/arfanliaqat))
+
+## [v8.1.1](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.1.1) (2019-12-06)
+[Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.1.0...v8.1.1)
+
+**Closed issues:**
+
+- feathers service [\#352](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/352)
+- An in-range update of @feathersjs/adapter-commons is breaking the build 🚨 [\#350](https://github.com/feathersjs-ecosystem/feathers-mongoose/issues/350)
+
+**Merged pull requests:**
+
+- Update all dependencies [\#359](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/359) ([daffl](https://github.com/daffl))
+- fix: handling of params.mongoose in transaction [\#358](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/358) ([florianbepunkt](https://github.com/florianbepunkt))
+- Update dtslint to the latest version 🚀 [\#356](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/356) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update dtslint to version 1.0.2 [\#355](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/355) ([daffl](https://github.com/daffl))
+- Greenkeeper/@feathersjs/adapter commons 4.3.8 [\#351](https://github.com/feathersjs-ecosystem/feathers-mongoose/pull/351) ([daffl](https://github.com/daffl))
+
 ## [v8.1.0](https://github.com/feathersjs-ecosystem/feathers-mongoose/tree/v8.1.0) (2019-10-07)
 [Full Changelog](https://github.com/feathersjs-ecosystem/feathers-mongoose/compare/v8.0.3...v8.1.0)
 
